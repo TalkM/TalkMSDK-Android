@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--android:background="#fff5f6f1"-->
+    <LinearLayout
+        android:id="@+id/chatting_list_view_rootLL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0dp" >
+
+            <!-- Chat Header -->
+            <include
+                layout="@layout/chat_list_default_header"
+                android:id="@+id/chat_list_header"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ListView
+                android:id="@+id/chatting_list_view_listView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#0000"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:dividerHeight="5dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:fadingEdge="none"
+                android:stackFromBottom="false"/>
+
+            <FrameLayout
+                android:id="@+id/chatting_list_view_playingFaceFL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/chatting_play_face_bg"
+                android:padding="10dp"
+                android:visibility="gone" >
+            </FrameLayout>
+        </FrameLayout>
+
+
+        <!--Footer button-->
+        <RelativeLayout
+            android:id="@+id/rl_typing_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_inside_typing_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/vw_separator_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/chat_put_in" />
+
+                <LinearLayout
+                    android:id="@+id/rl_bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="65dp"
+                    android:gravity="center"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:id="@+id/chatting_list_view_msgEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="63dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="@string/chat_typing_area_hint_text"
+                        android:textColorHint="#dadada"
+                        android:gravity="top|left"
+                        android:textSize="18sp"
+                        android:maxLines="4"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"/>
+                    /><!-- android:text="@string/chat_send_message"  -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rl_bottom2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:baselineAligned="true">
+
+                    <!--
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/chatting_list_view_sendEmoji"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_emoticon"
+                            android:text=""
+                            />
+                    </RelativeLayout>
+                    -->
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/chatting_list_view_sendImgBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_image"
+                            android:text=""
+                            android:layout_alignParentLeft="true"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/chatting_list_view_ratingBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_rating1"
+                            android:text=""
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bottom2_1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/ll_inside_typing_area"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:id="@+id/chatting_list_view_sendBtn_background"
+                    android:layout_width="50dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/btn_chat_send"
+                    android:text="" >
+
+                    <ImageView
+                        android:id="@+id/chatting_list_view_sendBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="11dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/ic_send"
+                        android:text="" />
+                </RelativeLayout>
+
+                <!--style="@style/ButtonSendStyle"-->
+                <!--android:src="@drawable/btn_chat_send"-->
+                <!--android:background="@drawable/ic_send"-->
+
+            </RelativeLayout>
+
+<!--
+            <RelativeLayout
+                android:id="@+id/chatting_list_view_bottomMainRL"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/chatting_list_view_bottomMainRL_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:background="@null" />
+-->
+                    <!-- android:background="@drawable/chatting_tools_line" -->
+
+                <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 2013-11-13日暂时停掉了角色相关的代码 S
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="3px"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radio0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_btn_red_abc"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="@string/chat_message_wave"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="1px"
+                        android:layout_height="40dp"
+                        android:src="@drawable/chatting_tools_viewpager_parent_line" />
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_btn_red_abc"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="@string/chat_message_face"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="1px"
+                        android:layout_height="40dp"
+                        android:src="@drawable/chatting_tools_viewpager_parent_line" />
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_btn_red_abc"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="@string/chat_reply_message"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="1px"
+                        android:layout_height="40dp"
+                        android:src="@drawable/chatting_tools_viewpager_parent_line" />
+
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_btn_red_abc"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="@string/chat_voice_actor"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="1px"
+                        android:layout_height="40dp"
+                        android:src="@drawable/chatting_tools_viewpager_parent_line"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/radio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_btn_red_abc"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="@string/chat_message_background"
+                        android:textColor="@color/white" />
+                </RadioGroup>
+                $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 2013-11-13日暂时停掉了角色相关的代码 E -->
+<!--
+                <FrameLayout
+                    android:id="@+id/chatting_list_view_bottomContentFL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/chatting_list_view_bottomMainRL_img"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                </FrameLayout>
+-->
+<!--
+            </RelativeLayout>
+-->
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60px"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:background="@color/powerby">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#a0a0a0"
+                android:text="Powered by "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="@string/powerBy"/>
+
+        </LinearLayout>
+        <!-- 在有好友时就出现本界面，没好友时就出现添加好友界面，二个界面在同一个layout里用setVisible实现吧！ -->
+
+    </LinearLayout>
+
+
+</FrameLayout>

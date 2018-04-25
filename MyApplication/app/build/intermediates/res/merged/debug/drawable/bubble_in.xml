@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--version 1-->
+    <!--<item>-->
+        <!--<rotate-->
+            <!--android:fromDegrees="-45"-->
+            <!--android:pivotX="0%"-->
+            <!--android:pivotY="0%"-->
+            <!--android:toDegrees="0" >-->
+            <!--<shape android:shape="rectangle" >-->
+                <!--<solid android:color="@color/common_title_bar" />-->
+            <!--</shape>-->
+        <!--</rotate>-->
+    <!--</item>-->
+    <!--<item android:left="16dp">-->
+        <!--<shape android:shape="rectangle" >-->
+            <!--<solid android:color="@color/common_title_bar" />-->
+            <!--<corners android:radius="4dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+
+    <!--version 2-->
+    <!--android:height="20dp"-->
+    <!--android:width="20dp"-->
+    <item android:id="@+id/bubbleInTick"
+        android:top="0dp"
+        android:left="0dp"
+        android:bottom="20dp"
+        android:right="20dp"
+        android:gravity="left">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/chat_in_bubble" />
+        </shape>
+    </item>
+
+    <item android:id="@+id/bubbleInBox">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/chat_in_bubble" />
+            <corners android:radius="13dp" />
+        </shape>
+
+    </item>
+
+</layer-list>

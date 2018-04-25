@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

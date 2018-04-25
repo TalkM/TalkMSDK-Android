@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/createticket2.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/createticket2.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/dialog_rate_btn_default_border.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/dialog_rate_btn_default_border.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/talkm_sytle_chat_profile.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/talkm_sytle_chat_profile.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/user.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/user.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/btn_style_alert_dialog_cancel.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/btn_style_alert_dialog_cancel.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/circular_view.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/circular_view.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/list_item_up.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/list_item_up.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/im_dropdown.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/im_dropdown.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/main_search_button_green_bg.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/main_search_button_green_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_image_view_rotate_shun_btn.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_image_view_rotate_shun_btn.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/btn_style_alert_dialog_button.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/btn_style_alert_dialog_button.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_progress_bar_green_small.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_progress_bar_green_small.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/dashed_line.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/dashed_line.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_progress_bar_green.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_progress_bar_green.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/avatar_1.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/avatar_1.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_loading_small1.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_loading_small1.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/chatto_bg.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/chatto_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/btn_round_corner_default.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/btn_round_corner_default.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/home_down.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/home_down.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/dropdown_border.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/dropdown_border.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/bubble_in.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/bubble_in.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_btn_green_usedindark.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_btn_green_usedindark.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/btn_ripple_effect.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/btn_ripple_effect.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_image_view_rotate_ni_btn.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_image_view_rotate_ni_btn.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/btn_style_alert_dialog_confirm.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/btn_style_alert_dialog_confirm.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/btn_chat_send.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/btn_chat_send.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/im_image_grey.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/im_image_grey.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/bubble_out.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/bubble_out.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/send_time_textview_rounded_circle.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/send_time_textview_rounded_circle.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/btn_style_alert_dialog_special.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/btn_style_alert_dialog_special.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/bg_dot_dashed.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/bg_dot_dashed.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/chatting_voice_playing_anim_l.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/chatting_voice_playing_anim_l.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/circle_img_view.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/circle_img_view.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/chat_send_btn.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/chat_send_btn.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_title_btn_general.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_title_btn_general.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/dialog_rate_btn_selected_border.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/dialog_rate_btn_selected_border.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/chatting_voice_playing_anim_r.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/chatting_voice_playing_anim_r.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/chatfrom_bg.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/chatfrom_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/edittext_bg.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/edittext_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/main_search_button_bg.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/main_search_button_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/color_cursor.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/color_cursor.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/chat_realvoice_btn.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/chat_realvoice_btn.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/im_sound_on.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/im_sound_on.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/home_selected_bg.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/home_selected_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/im_online.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/im_online.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/white_arrow_down.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/white_arrow_down.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/im_like_grey.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/im_like_grey.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/im_emoticon_grey.png",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/im_emoticon_grey.png"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/main_search_button_blue_bg.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/main_search_button_blue_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/common_title_btn_back.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/common_title_btn_back.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/temp_chat_sendimg_btn.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/temp_chat_sendimg_btn.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/chatting_list_view_record_frame_selector.xml",
+        "source": "/Users/User/.android/build-cache/a172e28c9f150f6c75bd611f393515cd231dacc4/output/res/drawable/chatting_list_view_record_frame_selector.xml"
+    },
+    {
+        "merged": "/Users/User/talkm-android-sdk/MyApplication/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/User/.android/build-cache/dbc0fe46bbaf5a65782d37e541de44839f6a581f/output/res/drawable/abc_seekbar_thumb_material.xml"
+    }
+]

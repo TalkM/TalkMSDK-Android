@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="0dp"
+    android:layout_marginTop="6dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="6dp" >
+
+    <ImageView
+        android:id="@+id/iv_userhead"
+        android:layout_width="46.5dp"
+        android:layout_height="45.5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/renma"
+        android:clickable="true"
+        android:focusable="false"
+        android:paddingBottom="4dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@id/iv_userhead"
+        android:orientation="vertical"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/tv_chat_send_faild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/chatting_list_view_item_msg_send_error" />
+
+            <!--android:background="@drawable/chatto_bg"-->
+            <FrameLayout
+                android:id="@+id/tv_chatcontent_main_layout"
+                android:layout_width="120dp"
+                android:layout_height="38dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/bubble_out"
+                android:clickable="true"
+                android:lineSpacingExtra="2dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="11.5dp"
+                android:paddingTop="4.5dp" >
+
+                <TextView
+                    android:id="@+id/tv_chatcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left|center_vertical"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:text="35&apos;&apos;"
+                    android:textColor="@color/text_bluesky1"
+                    android:textStyle="normal" />
+                <!--
+                     android:adjustViewBounds="true"不设此属性则
+	                 android:maxHeight、android:maxWidth将不起作用
+                -->
+
+                <ImageView
+                    android:id="@+id/tv_chatcontent_playStatus_for_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:adjustViewBounds="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:src="@drawable/chatting_voice_normal_r" />
+
+                <LinearLayout
+                    android:id="@+id/tv_sendstatus_sencondary_ll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="#66333333"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="left|center_vertical" >
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/tv_sendstatus_sencondary_viewHint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:text="-"
+                        android:textColor="#ffffffff"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <!--android:background="@drawable/chatting_msg_time_flag2"-->
+        <!--android:paddingBottom="0dp"-->
+        <!--android:paddingLeft="4dp"-->
+        <!--android:paddingRight="4dp"-->
+        <!--android:paddingTop="0dp"-->
+        <!--android:text="09:20"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="10sp"-->
+        <TextView
+            android:id="@+id/tv_sendtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:text="09:20"
+            style="@style/chat_image_date_style"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/iv_userhead"
+        android:layout_toRightOf="@id/iv_userhead"
+        android:gravity="center"
+        android:text="lily"
+        android:textColor="#818181"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

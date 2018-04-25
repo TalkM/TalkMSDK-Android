@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Leave Us a Message Header -->
+    <FrameLayout
+        android:id="@+id/fl_title_bar"
+        style="@style/widget_title_bar_style"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:padding="0dp"
+        android:background="@color/dialogRateBtnLayoutSelectedBorderColor">
+
+        <!-- 左按钮区布局 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginRight="7dp"
+                android:orientation="horizontal"
+                android:background="?android:attr/selectableItemBackground">
+                <!--android:layout_gravity="right|center"-->
+
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--style="@style/widget_title_bar_backBtn_style"-->
+                <ImageView
+                    android:id="@+id/iv_backBtn"
+                    android:background="@drawable/ic_back"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <!--android:background="@drawable/roster_list_view_more_btn_nomal"-->
+                <!--android:layout_width="20dp"-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/leave_a_msg_title"
+                    android:text="@string/leave_a_msg_title"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 中间标题文本区布局 -->
+
+
+
+        <!-- 右按钮区布局 -->
+
+        <LinearLayout
+            android:id="@+id/ll_submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="right|center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="?android:attr/selectableItemBackground" >
+
+            <!--android:background="@drawable/roster_list_view_more_btn_nomal"-->
+            <!--android:layout_width="20dp"-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/leave_a_msg_submitBtn"
+                android:background="@drawable/ic_send_email_small" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/et_leave_msg_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/leave_a_msg_name_hint"
+                android:theme="@style/EditTextTheme"
+                android:textSize="@dimen/formTextSize"
+                android:textColor="@color/black"
+                android:inputType="textCapWords"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/et_leave_msg_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/leave_a_msg_email_hint"
+                android:theme="@style/EditTextTheme"
+                android:textSize="@dimen/formTextSize"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/et_leave_msg_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/leave_a_msg_phone_hint"
+                android:theme="@style/EditTextTheme"
+                android:textSize="@dimen/formTextSize"
+                android:textColor="@color/black"
+                android:inputType="phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/et_leave_msg_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/leave_a_msg_desc_hint"
+                android:theme="@style/EditTextTheme"
+                android:textSize="@dimen/formTextSize"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

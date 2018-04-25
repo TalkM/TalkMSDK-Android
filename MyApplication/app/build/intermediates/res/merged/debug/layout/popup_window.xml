@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llSortChangePopup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dropdown_border"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_export_chat"
+        android:background="?attr/selectableItemBackground">
+        <!--android:background="@drawable/btn_ripple_effect"-->
+        <!--android:onClick="popupOnClick"-->
+
+        <LinearLayout
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_export_chat"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray_popup_text"
+                android:text="@string/chat_popup_window_export_chat" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dialogNegativeBtnText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_end_chat"
+        android:background="?attr/selectableItemBackground">
+        <!--android:background="@drawable/btn_ripple_effect"-->
+        <!--android:onClick="popupOnClick"-->
+
+        <LinearLayout
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_end_chat"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray_popup_text"
+                android:text="@string/chat_popup_window_end_conversation"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="distance"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="5dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_marginLeft="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_export_chat"
+        android:contentDescription="@drawable/ic_export_chat"/>
+
+    <TextView
+        android:id="@+id/tvPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="priority"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="popupSortOnClick"
+        android:textColor="@color/black" />
+
+
+    <ImageView
+        android:layout_marginLeft="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_export_chat"
+        android:contentDescription="@drawable/ic_export_chat"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="popupSortOnClick"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_marginLeft="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_export_chat"
+        android:contentDescription="@drawable/ic_export_chat"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="status"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:onClick="popupSortOnClick"
+        android:paddingBottom="10dp"/>-->
+</LinearLayout>

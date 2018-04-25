@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+    <!-- Chat Header -->
+    <FrameLayout
+        android:id="@+id/fl_title_bar"
+        style="@style/widget_title_bar_style"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:padding="0dp"
+        android:background="@color/dialogRateBtnLayoutSelectedBorderColor">
+
+        <!-- 左按钮区布局 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginRight="7dp"
+                android:orientation="horizontal"
+                android:background="?android:attr/selectableItemBackground">
+                <!--android:layout_gravity="right|center"-->
+
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--style="@style/widget_title_bar_backBtn_style"-->
+                <ImageView
+                    android:id="@+id/iv_backBtn"
+                    android:background="@drawable/ic_back"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <!--android:background="@drawable/roster_list_view_more_btn_nomal"-->
+                <!--android:layout_width="20dp"-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/leave_a_msg_title"
+                    android:text="@string/no_agents_navigation_title"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 中间标题文本区布局 -->
+
+
+
+        <!-- 右按钮区布局 -->
+
+        <!--<RelativeLayout
+            android:id="@+id/rl_seeMoreBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="right|center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            &lt;!&ndash;android:background="@drawable/roster_list_view_more_btn_nomal"&ndash;&gt;
+            &lt;!&ndash;android:layout_width="20dp"&ndash;&gt;
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/leave_a_msg_submitBtn"
+                android:background="@drawable/ic_send" />
+
+        </RelativeLayout>-->
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:id="@+id/ll_thank_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_view"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_thank_you"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_thank"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/tv_thank_you_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/leave_a_msg_thank_title"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/tv_no_agents_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leave_a_msg_thank_desc"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
