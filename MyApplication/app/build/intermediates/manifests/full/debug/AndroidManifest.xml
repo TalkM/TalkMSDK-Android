@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.starsystems.myapplication"
+    package="com.example.sample.myapplication"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="25" />
-
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
+        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_TASKS" />
@@ -40,16 +36,17 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.starsystems.myapplication.MainActivity" >
+        <activity android:name="com.example.sample.myapplication.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -74,6 +71,13 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
+            android:name="com.starsystems.talkmsdklib.chat.PreSurveyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
             android:name="com.starsystems.talkmsdklib.chat.NoAgentsAvailableActivity"
             android:configChanges="keyboardHidden|orientation"
             android:noHistory="true"
@@ -94,6 +98,46 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.starsystems.talkmsdklib.chat.ProfileActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.starsystems.talkmsdklib.chat.ExportChatActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.starsystems.talkmsdklib.chat.imagepicker.ui.imagepicker.ImagePickerActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/imagepicker_ImagePickerTheme" />
+        <activity
+            android:name="com.starsystems.talkmsdklib.chat.imagepicker.ui.camera.CameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/imagepicker_CameraTheme" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.sample.myapplication.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/imagepicker_file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.starsystems.talkmsdklib.chat.WebViewActivity"
+            android:label="@string/title_activity_web_view" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
     </application>
 
 </manifest>
